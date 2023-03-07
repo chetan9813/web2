@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.align{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    width: 1480px;
+    background:linear-gradient(rgb(44, 44, 44),transparent)
+}
+.header{
+    width: auto;
+    height: 500px;
+    background-image: url(giphy.gif);
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    background-position: center;
+}
+.logo{
+    padding: 5px;
+    width: 58px;
+    border-radius: 50%; 
+}
+
+.nav-up{
+    margin: 0;
+    background-blend-mode: color-dodge;
+    padding: 15px;
+    list-style-type: none;
+}
+
+.nav-up li{
+    display:inline-block;
+    margin-right: 20px;
+}
+
+.nav-up a{
+    color: white;
+    text-decoration: none;
+    size: 20px;
+    padding: 10 px;
+    font-size: larger;
+    background-color: none;
+}
+
+.nav-up a:hover{
+    color: black;
+    background-color: white;
+    border-radius: 10%;
+    size: 30px;
+    font-size: larger;
+    padding: 15px;
+}
+
+.list{
+    margin-top: 20px;
+}
+
+.foot{
+    background-color: rgb(58, 58, 72);
+    width: 1480px;;
+    height: 500px;;
+}
