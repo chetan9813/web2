@@ -41,9 +41,8 @@ body{
 .nav-up a{
     color: white;
     text-decoration: none;
-    size: 20px;
-    padding: 10 px;
-    font-size: larger;
+    size: 10px;
+    padding-top: 10px;
     background-color: none;
 }
 
@@ -51,35 +50,40 @@ body{
     color: black;
     background-color: white;
     border-radius: 10%;
-    size: 30px;
-    font-size: larger;
-    padding: 15px;
+    size: 10px;
+    padding: 10px;
 }
 
 .sec3{
-    margin: 20px;
+    background-size: 100%;
+    margin: 20px;   
     padding-left: 80px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .events{
+    margin: 50px 30px;
     background-color: white;
-    border-radius: 5%;
-    margin: 20px;
     width: 270px;
     height:400px;
     margin-top: 20px;
-    border: 1px solid rgb(130, 130, 130) ;
+    border: 1px solid rgb(217, 217, 217) ;
+
+}
+.events:hover{
+    box-shadow: grey 0 0 10px;
 
 }
 .events img{
-    border-radius: 5%;
     width: 270px;
     height: 150px;
 }
-.events a{
+.sec3 a{
     text-decoration: none;
 }
+
+
 .eve{
     margin: 15px;
     margin-top: 10px;
