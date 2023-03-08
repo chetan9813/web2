@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: Neue Plak,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,Helvetica,Tahoma,Arial,sans-serif;
 }
 
 .align{
@@ -55,12 +56,91 @@ body{
     padding: 15px;
 }
 
-.list{
+.sec3{
+    margin: 20px;
+    padding-left: 80px;
+    display: flex;
+}
+
+.events{
+    background-color: white;
+    border-radius: 5%;
+    margin: 20px;
+    width: 270px;
+    height:400px;
     margin-top: 20px;
+    border: 1px solid rgb(130, 130, 130) ;
+
+}
+.events img{
+    border-radius: 5%;
+    width: 270px;
+    height: 150px;
+}
+.events a{
+    text-decoration: none;
+}
+.eve{
+    margin: 15px;
+    margin-top: 10px;
+    color: rgb(22, 15, 46);
+}
+.eve-time{
+    margin: 15px;
+    color: rgb(175, 54, 10);
+}
+
+.eve-org{
+    margin: 15px;
+    padding-top: 10px;
+    color: grey;
 }
 
 .foot{
-    background-color: rgb(58, 58, 72);
-    width: 1480px;;
-    height: 500px;;
+    background-color: rgb(42, 42, 57);
+    width: 1480px;
+    height: 300px;
+    display: flex;
 }
+.col1{
+    height: 250px;
+    width: 380px;
+}
+.foot-links{
+    list-style: none;
+    padding-top: 30px;
+
+}
+
+.foot-links a{
+    color: white;
+    text-decoration: none;
+    font-family: Neue Plak,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,Helvetica,Tahoma,Arial,sans-serif;
+    font-size: small;
+
+}
+.foot-links a:hover{
+    color: rgb(82, 170, 199);
+    text-decoration: none;
+    font-family: Neue Plak,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,Helvetica,Tahoma,Arial,sans-serif;
+
+}
+.last{
+    width: 1480;
+    height: 50px;
+    background-color: rgb(72, 72, 90);
+}
+.left{
+    margin-top: 0px;
+    padding-top: 13px;
+    text-align: center;
+}
+.left a{
+    text-decoration: none;
+    color: white;
+}
+.left a:hover{
+    text-decoration: solid;
+    color:rgb(82, 170, 199) ;
+}
+
