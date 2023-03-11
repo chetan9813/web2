@@ -7,15 +7,17 @@ body{
 
 .align{
     display: flex;
+    position: fixed;
     justify-content: space-between;
     background-color: transparent;
-    width: 1480px;
+    width: 100%;
     background:linear-gradient(rgb(44, 44, 44),transparent)
 }
 .header{
     width: auto;
+    margin-top: 0px;
     height: 500px;
-    background-image: url(bg.jpg);
+    background-image: url(bg.gif);
     background-repeat: no-repeat;
     background-size: 100% ;
     background-position: center;
@@ -55,13 +57,54 @@ body{
     size: 30px;
     padding: 15px;
 }
+.sec1{
+    margin: 50px 50px 0px 50px;
+}
 
+.city{
+    margin-left: 70px;
+    font-size: 30px;
+    color: rgb(67, 20, 102);
+}
+.sec1 input{
+    width: 180px;
+    height: auto;
+    font-size: 30px;
+}
+.category{
+    margin-top: 50px;
+    color: #1e0a3c;
+    text-transform: capitalize;
+}
+
+.d{
+    list-style: none;
+    display: flex;
+    overflow: auto;
+    position: relative;
+    margin-bottom: 0;
+    padding-bottom: 16px;
+}
+
+.d li{
+    margin: 10px;
+    text-align: center ;
+    font-size: 15px;
+    color: rgb(82, 81, 81);
+    text-transform: capitalize;
+}
+.d li:hover{
+    color: black;
+    list-style:none;    
+}
 .sec2{
     margin-left: 75px;
     padding: 50px;
+}
+
+.btn-2{
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .btn {
@@ -75,21 +118,34 @@ body{
     font-size: 16px;
     margin: 4px 4px;
     cursor: pointer;
-    background-color:rgb(226, 226, 226);
+    background-color:rgb(235, 210, 199);
 }
-
+.btn img{
+    width: 20px;
+    height: 20px;
+    margin: 0 10px 0 0;
+}
 .btn:hover{
-    background-color:rgb(194, 194, 194) ;
+    background-color:rgb(246, 231, 228) ;
 }
 
 .sec3{
     background-size: 100%;
     margin: 20px;   
     padding-left: 80px;
+}
+
+.category-2{
+    margin-top: 50px;
+    color: #1e0a3c;
+    text-transform: capitalize;
+    margin-left: 30px;
+}
+
+.eve-list{
     display: flex;
     flex-wrap: wrap;
 }
-      
 
 .events{
     margin: 50px 30px;
@@ -122,12 +178,20 @@ body{
     margin: 15px;
     color: rgb(175, 54, 10);
 }
+.eve-loc{
+    margin:15px;
+    color: gray;
+}
 
 .eve-org{
     margin: 15px;
-    padding-top: 10px;
-    color: grey;
+    color: rgb(32, 8, 32);
+
 }
+.feed-events-bucket__separator {
+    margin: 0 -50vw;
+}
+
 
 .foot{
     background-color:#1e0a3c;
