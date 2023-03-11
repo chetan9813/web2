@@ -23,8 +23,8 @@ body{
     background-position: center;
 }
 .logo{
-    padding: 5px;
-    width: 58px;
+    margin:10px;
+    width: 38px;
     border-radius: 50%; 
 }
 .wrap{
