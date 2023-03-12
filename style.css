@@ -17,7 +17,7 @@ body{
     width: auto;
     margin-top: 0px;
     height: 500px;
-    background-image: url(bg.gif);
+    background-image: url(images/bg.gif);
     background-repeat: no-repeat;
     background-size: 100% ;
     background-position: center;
@@ -118,7 +118,7 @@ body{
     font-size: 16px;
     margin: 4px 4px;
     cursor: pointer;
-    background-color:rgb(235, 210, 199);
+    background-color:rgb(229, 231, 233);
 }
 .btn img{
     width: 20px;
@@ -126,7 +126,7 @@ body{
     margin: 0 10px 0 0;
 }
 .btn:hover{
-    background-color:rgb(246, 231, 228) ;
+    background-color:rgb(247, 247, 248) ;
 }
 
 .sec3{
