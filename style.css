@@ -5,57 +5,55 @@ body{
     font-family: Neue Plak,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,Helvetica,Tahoma,Arial,sans-serif;
 }
 
-.align{
-    display: flex;
-    position: fixed;
-    justify-content: space-between;
-    background-color: transparent;
-    width: 100%;
-    background:linear-gradient(rgb(44, 44, 44),transparent)
-}
 .header{
     width: auto;
     margin-top: 0px;
-    height: 500px;
-    background-image: url(images/bg.gif);
+    height: auto;
     background-repeat: no-repeat;
     background-size: 100% ;
     background-position: center;
 }
 .logo{
-    margin:10px;
-    width: 38px;
+    margin:6px;
+    width: 36px;
     border-radius: 50%; 
 }
-.wrap{
+
+.nav-bar{
     display: flex;
     flex-wrap: wrap;
+    position: fixed;
+    background-color: white;
+    width:100%;
+    height: auto;
 }
 .nav-up{
-    margin: 0;
-    background-blend-mode: color-dodge;
-    padding: 15px;
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
 .nav-up li{
-    display:inline-block;
-    margin-right: 20px;
+    float: left;
+    text-align: center;
 }
 
 .nav-up a{
-    color: white;
     text-decoration: none;
-    size: 10px;
-    padding-top: 10px;
-    background-color: none;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    color: black;
 }
 
 .nav-up a:hover{
-    color: black;
-    background-color: white;
-    size: 30px;
-    padding: 15px;
+    background-color: rgb(241, 241, 241);
+}
+
+.bg-img img{
+    width: 100%;
 }
 .sec1{
     margin: 50px 50px 0px 50px;
@@ -81,21 +79,20 @@ body{
     list-style: none;
     display: flex;
     overflow: auto;
-    position: relative;
     margin-bottom: 0;
     padding-bottom: 16px;
 }
 
-.d li{
+.d a{
     margin: 10px;
     text-align: center ;
     font-size: 15px;
     color: rgb(82, 81, 81);
     text-transform: capitalize;
+    text-decoration: none;
 }
-.d li:hover{
-    color: black;
-    list-style:none;    
+.d a:hover{
+    color: rgb(46, 61, 156);
 }
 .sec2{
     margin-left: 75px;
@@ -153,11 +150,10 @@ body{
     width: 270px;
     height:400px;
     margin-top: 20px;
-    box-shadow: grey 0 0 10px ;
 
 }
 .events:hover{
-    box-shadow: grey 0 0 20px;
+    box-shadow: rgb(172, 172, 172) 0 0 20px;
 
 }
 .events img{
@@ -235,10 +231,10 @@ body{
 }
 .left a{
     text-decoration: none;
-    color: white;
+    color: black;
 }
 .left a:hover{
     text-decoration: solid;
-    color:rgb(82, 170, 199) ;
+    color:rgb(25, 21, 157) ;
 }
 
